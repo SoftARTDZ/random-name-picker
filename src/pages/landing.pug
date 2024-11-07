@@ -23,28 +23,28 @@ include ../mixins/icons
       #sunburst.sunburst
         img(src="~@images/sunburst.svg" alt="sunburst")
 
-    button#draw-button.solid-button Draw
+    button#draw-button.solid-button Tirer Au Sort
 
   #settings.settings
     #settings-panel.settings__panel
       div.settings__panel__group
-        h1.settings__title Settings
+        h1.settings__title Paramètres
         div.input-group
-          label.input-label(for="name-list") Name List
-          textarea.input-field.input-field--textarea(rows="8" placeholder="Separate each name by line break" id="name-list")
+          label.input-label(for="name-list") Liste de noms
+          textarea.input-field.input-field--textarea(rows="8" placeholder="Séparer chaque nom par un saut de ligne" id="name-list")
 
         div.input-group.input-group--2-column
-          label.input-label(for="remove-from-list") Remove winner from list
+          label.input-label(for="remove-from-list") Supprimer le gagnant de la liste
           label.input--switch
             input(type="checkbox" checked="true" id="remove-from-list")
             span.slider
 
         div.input-group.input-group--2-column
-          label.input-label(for="enable-sound") Enable sound effect
+          label.input-label(for="enable-sound") Activer l'effet sonore
           label.input--switch
             input(type="checkbox" checked="true" id="enable-sound")
             span.slider
       div.settings__panel__group
-        button#settings-save.solid-button.solid-button Save
-        button#settings-close.solid-button.solid-button--danger Discard and close
+        button#settings-save.solid-button.solid-button Sauvegarder
+        button#settings-close.solid-button.solid-button--danger Annuler et fermer
 
