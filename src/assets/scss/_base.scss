@@ -22,7 +22,7 @@ body {
   height: 100%;
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Nunito Sans', 微軟正黑體, 'Microsoft JhengHei',
+  font-family: 'Nunito Sans', 'Rubik', 'Microsoft JhengHei',
     'Microsoft JhengHei UI', 'Microsoft YaHei', 'Microsoft YaHei UI',
     'PingFang TC', 'Lantinghei TC', 'Heiti TC', 'Apple LiGothic', 'PMingLiU',
     Arial, sans-serif;
@@ -30,12 +30,12 @@ body {
 
 #app {
   background: linear-gradient(
-    240deg,
-    $color-red-step1 0.13%,
-    $color-red-step2 26.19%,
-    $color-red-step3 52.6%,
-    $color-red-step4 79.08%,
-    $color-red-step5 100%
+    350deg,
+    $color-step1 0%,
+    $color-step2 30%,
+    $color-step3 60%,
+    $color-step4 80%,
+    $color-step5 100%
   );
   color: $color-text-light;
   padding: 0 3.125rem;
